@@ -29,7 +29,7 @@ body{
     
     .container{
         width: 350px;
-        height: 560px;
+        height: 580px;
     }
     header{
         height: 70px;
@@ -40,7 +40,7 @@ body{
    
     .container{
         width: 400px;
-        height: 560px;
+        height: 580px;
     }
     header{
         width:100%;
@@ -181,7 +181,7 @@ body{
 	 right: 0;
 	 bottom: 0;
 	 position: absolute;
-	 margin: 10% auto;
+	 margin: 15% auto;
    
 	 background: #fff;
 	 border-radius: 0px;
@@ -204,7 +204,7 @@ p span:nth-of-type(even) {
  .cont-forms {
 	 position: relative;
 	 padding: 0px 20px 10px 10px;
-     height: 30%;
+     height: 29%;
      width: 90%;
      margin: auto;
      background: linear-gradient(36deg, rgba(16, 161, 218, 0.5) 1%,
