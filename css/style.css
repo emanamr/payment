@@ -181,7 +181,7 @@ body{
 	 right: 0;
 	 bottom: 0;
 	 position: absolute;
-	 margin:auto;
+	 margin:8% auto;
    
 	 background: #fff;
 	 border-radius: 0px;
@@ -307,7 +307,7 @@ fieldset{
 	 border: 1px solid #ccc;
 }
 .card-button{
-    margin: 9%;
+    margin: 10%;
 }
 
 .card-button button{
