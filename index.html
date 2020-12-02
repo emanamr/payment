@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--start style-->
+    <!--very nice reset-->
+    <link rel="stylesheet" href="/css/normalize.css">
+    <!--nice library-->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.css.map">
+    <link rel="stylesheet" href="/css/jquery.bxslider.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <!--main style-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--end style-->
+
+    <!--[if lt IE 9]-->
+    <script src="js/html5shiv.min.js"></script>
+    <!--[endif]-->
+
+</head>
+<body>
+    <!--start header-->
+    <header>
+        <!--img src="image/images3.png" alt="not find"/-->
+    </header>
+    <!--end header-->
+
+
+
+    <!--start page contant-->
+    <!--section>
+        <div class="container">
+        <pre>
+            Dear client,
+            Please find bellow the amount due for:
+                -Service    : service description
+                -Provided by: provider name
+            <small>Please contact us if you have any questions</small>
+        </pre>
+        <div>
+            <p>
+                Fee summary:<br>
+                &nbsp;&nbsp;Practice recharge &nbsp;&nbsp; &nbsp;&nbsp;€16<br>
+                &nbsp;&nbsp;<small>Transaction fee &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                    €1</small><br>
+                -------------------------------<br>
+                &nbsp;&nbsp;Total Due &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; €17
+            </p>
+       
+        </div>
+        </div>
+
+        <div class="card">
+<span class="myRange">
+    <input type="number" id="no1" tab-index="1" required="required"  />-
+    <input type="number" id="no2" tab-index="2" required="required" />-
+    <input type="number" id="no3" tab-index="3" required="required" />-
+    <input type="number" id="no4" tab-index="4" required="required" />
+</span>
+    <input type="month" required="required" >
+    
+    <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" required="required"  >
+    
+        </div>
+        
+    </section-->
+    <!--end page contant-->
+
+<div class="container">
+    <div class="text">
+       <h3>Dear client,</h3>
+    <p>
+    Please find bellow the amount due for:<br>
+    &nbsp;&nbsp; -Service &nbsp;&nbsp; : service description<br>
+        &nbsp;&nbsp;   -Provided by: provider name
+    </p>
+        <p class="small-t"><small>Please contact us if you have any questions</small></p>
+        <hr class="soften">
+    </div>
+
+    <div>
+        <h3>Fee summary:</h3>
+        <p>
+        <span class="left">Practice recharge </span> <span class="left">€16</span><br>
+        <span class="left"><small>Transaction fee</small> </span><span class="left"> <small> €1</small></span>
+        </p>
+        <hr class="soften">
+        <p>
+        <span class="left">Total Due</span> <span class="left green"> €17</span>
+        </p>
+           
+    </div>
+            <!--End STEP-->
+            <div class="cont-forms">
+                <form class="form" autocomplete="off" novalidate>
+                    <fieldset class="card-number">
+                        <label for="card-num">Credit card number</label>
+                        <div class="flex-wrapper">
+                            <input class="cc-number" type="num" maxlength="4" />
+                            <input class="cc-number" type="num" maxlength="4" />
+                            <input class="cc-number" type="num" maxlength="4" />
+                            <input class="cc-number" type="num" maxlength="4" />
+                        </div>
+                    </fieldset>
+                    <fieldset class="card-expiration">
+                        <div class="expiry-ccv">
+                            <div class="cont expiration-date">
+                                <label for="card-num">Expiration Date</label>
+                                <input type="numb" maxlength="2" />
+                                <input class="last" type="num" maxlength="4" />
+                            </div>
+                            <div class="cont ccv">
+                                <label for="card-ccv">ccv</label>
+                                <input type="num" maxlength="3" />
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="card-button">
+                        <button>Pay now <span class="green">&nbsp;&nbsp; €17</span></button>
+                    </fieldset>
+                    <fieldset class="checkbox">    
+                        <input type="checkbox">
+                        <label>Terms and Conditions</label>
+                    </fieldset>
+                   
+                </form>
+            </div>
+        </div>
+
+    <!--start footer-->
+    <footer>
+    </footer>
+    <!--end footer-->
+
+
+    <!--start scripts-->
+   
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/script.js"></script>
+    <!--end scripts-->
+</body>
+</html>

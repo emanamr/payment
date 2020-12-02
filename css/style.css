@@ -1,0 +1,307 @@
+/*em ---> take from parent
+rem----> take from root(html)
+% ----> like em take from parent
+pt----> use with printing*/
+
+
+/*start basic style*/
+
+/*google fonts*/
+@import url(https://fonts.google.com/specimen/Crimson+Text);
+
+@import url(https://fonts.google.com/specimen/Neuton);
+/*like hand write*/
+@import url(https://fonts.google.com/specimen/Parisienne);
+@import url(https://fonts.google.com/specimen/Marck+Script);
+
+
+*{
+    --webkit-box-sizing:border-box;
+    --moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+/*arabic page
+body{
+    direction: rtl;
+}
+*/
+/*@media only screen and (max-width: 400px )and (max-height:500px) {**/
+  
+
+    html{
+        font-size:15px;
+        font-weight: 300;
+        font-family: 'Roboto';
+    }
+
+
+    small{
+        font-size: .8rem;
+        color:#555;
+    }
+    p{
+        width:90%;
+        margin: 3% auto;
+        padding: 1% 3% 3% 3%;
+        line-height: 1.2rem;
+    }
+    h3{
+        margin:1% 5%;
+    }
+    /*end basic style*/
+
+
+    /*start header style*/
+    header{
+        width:400px;
+        height: 60px;
+        margin: auto;
+        background:url("../image/image3.jpg")no-repeat center center;
+        background-size: cover;
+      
+    }
+    header img{
+        width: 100%;
+        height: 100%;
+    }
+    hr.soften {
+    margin-top:5% ;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    border: 0;
+    }
+    /*end header style*/
+
+    /*start page contant style*/
+    /*.card{
+        width:30%;
+        height: 150px;
+        margin: auto;
+       
+        background: linear-gradient(36deg, rgba(109,66,132,0.8426724137931034) 1%, rgba(35,95,132,0.8469827586206897) 16%, rgba(6,88,113,0.8728448275862069) 31%, rgba(13,93,129,0.8448275862068966) 49%, rgba(46,96,134,0.8448275862068966) 59%, rgba(72,100,138,0.8469827586206897) 75%, rgba(69,98,138,0.8146551724137931) 84%, rgba(81,70,131,0.8577586206896551) 98%);
+       **background:linear-gradient(36deg, rgba(109,66,132,1) 1%, rgba(35,95,132,1) 16%, rgba(6,88,113,1) 31%, rgba(13,93,129,1) 49%, rgba(46,96,134,1) 59%, rgba(72,100,138,1) 75%, rgba(69,98,138,1) 84%, rgba(81,70,131,1) 98%);*
+    }
+    .card span {
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    margin:2% ;
+    border-bottom: 1px solid #aaa;
+    border-radius: 3px;
+    color:#fff;
+    }
+
+    .card span input {
+    border: 0 none transparent;
+    background: none;
+    max-width: 18%;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color:#fff;
+    }
+    .card span input:focus {
+    outline: none;
+    }
+    .card input{
+    width: 45%;
+    background: none;
+    border: transparent;
+    border-bottom: 1px solid #888;
+    padding: 2%;
+    color: #fff;
+    }*/
+    /* Chrome, Safari, Edge, Opera to cancel input button arrow*/
+    /*input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }*/
+
+    /* Firefox */
+    /*input[type=number] {
+    -moz-appearance: textfield;
+    }*/
+    /*end page contant style*/
+
+
+    /*start footer style*/
+
+    /*end footer style*/
+    /*start my frame work*/
+    /*.container{
+    ***width:90%;
+        height: 95%;***
+        width:350px;
+       
+        margin: auto;
+        background-color: #888;
+        text-align:left;
+    }
+
+.main-color{
+    color:#000;
+}
+.bg-color{
+    background-color: #fff;
+}*/
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.green{
+    color:rgba(32, 202, 32, 0.9);
+}
+/*end my framework*/
+
+
+ .container {
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 bottom: 0;
+	 position: absolute;
+	 margin: 5% auto;
+    width: 400px;
+    height: 540px;
+	 background: #fff;
+	 border-radius: 0px;
+	 box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.25);
+	 transition: transform 250ms linear;
+}
+
+.small-t{
+    margin:0px;
+    line-height: normal;
+}
+p span:nth-of-type(odd) {
+    display: table-cell;
+    width:60%;
+}
+p span:nth-of-type(even) {
+    display: table-cell;
+    width:30%;
+}
+ .cont-forms {
+	 position: relative;
+	 padding: 0px 20px 10px 10px;
+     height: 30%;
+     width: 90%;
+     margin: auto;
+     background: linear-gradient(36deg, rgba(109,66,132,0.5) 1%,
+      rgba(35,95,132,0.5) 16%, rgba(6,88,113,0.5) 31%, rgba(13,93,129,0.5) 49%,
+      rgba(46,96,134,0.5) 59%, rgba(72,100,138,0.5) 75%, rgba(69,98,138,0.5) 84%,
+       rgba(81,70,131,0.5) 98%);
+	
+}
+ .card-expiration, .card-holder, .card-number {
+	 text-transform: capitalize;
+	 margin: 5px 0px 5px 0px;
+	 font-family: 'Roboto';
+}
+ .card-number label {
+	 font-family: 'Roboto';
+	 text-transform: uppercase;
+	 font-size: 12px;
+	 font-weight: 300;
+	 display: block;
+	 margin-bottom: 10px;
+}
+fieldset{
+    border:none;
+}
+ .flex-wrapper {
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+}
+ .flex-wrapper input {
+	 width: 23%;
+	 text-align: center;
+	 height: 35px;
+	 border: none;
+	 background: rgba(255,255,255,.6);
+	 border-radius: 3px;
+	 outline: none;
+	
+}
+ .flex-wrapper input:focus {
+	 border: 1px solid #ccc;
+}
+
+ .card-holder input:focus {
+	 border: 1px solid #ccc;
+}
+ .card-expiration .expiry-ccv {
+	 display: flex;
+	 justify-content: space-between;
+}
+ .card-expiration .expiry-ccv .expiration-date {
+	 width: 50%;
+}
+ .card-expiration .expiry-ccv .expiration-date label {
+	 font-family: 'Roboto';
+	 text-transform: uppercase;
+	 font-size: 12px;
+	 font-weight: 300;
+	 display: block;
+	 margin-bottom: 10px;
+}
+ .card-expiration .expiry-ccv .expiration-date input {
+	 width: 46%;
+	 text-align: center;
+	 height: 35px;
+	 border: none;
+	 background: rgba(255,255,255,.6);
+	 border-radius: 3px;
+	 outline: none;
+	 box-sizing: border-box;
+}
+ .card-expiration .expiry-ccv .expiration-date input:focus {
+	 border: 1px solid #ccc;
+}
+ .card-expiration .expiry-ccv .expiration-date .last {
+	 margin-left: 7px;
+}
+ .card-expiration .expiry-ccv .ccv {
+	 width: 23%;
+}
+ .card-expiration .expiry-ccv .ccv label {
+	 font-family: 'Roboto';
+	 text-transform: uppercase;
+	 font-size: 12px;
+	 font-weight: 300;
+	 display: block;
+	 margin-bottom: 10px;
+}
+ .card-expiration .expiry-ccv .ccv input {
+	 width: 100%;
+	 text-align: center;
+	 height: 35px;
+	 border: none;
+	 background: rgba(255,255,255,.6);
+	 border-radius: 3px;
+	 outline: none;
+	 box-sizing: border-box;
+}
+ .card-expiration .expiry-ccv .ccv input:focus {
+	 border: 1px solid #ccc;
+}
+.card-button button{
+    width: 80%;
+    padding: 2%;
+    margin: auto auto auto 10%;
+    background-color: rgba(109,66,132,.6);
+    cursor: pointer;
+}
+
+.card-button button:hover{
+    color:#fff;
+    background-color: rgba(109,66,132,.8);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
