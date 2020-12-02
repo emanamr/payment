@@ -28,7 +28,7 @@ body{
 @media only screen and (max-width: 360px ){
     
     .container{
-         width: 360px;
+         width: 350px;
         height: 560px;
     }
     header{
@@ -255,7 +255,7 @@ fieldset{
 	 justify-content: space-between;
 }
  .card-expiration .expiry-ccv .expiration-date {
-	 width: 50%;
+	 width: 45%;
 }
  .card-expiration .expiry-ccv .expiration-date label {
 	 font-family: 'Roboto';
@@ -266,7 +266,7 @@ fieldset{
 	 margin-bottom: 10px;
 }
  .card-expiration .expiry-ccv .expiration-date input {
-	 width: 46%;
+	 width: 43%;
 	 text-align: center;
 	 height: 35px;
 	 border: none;
