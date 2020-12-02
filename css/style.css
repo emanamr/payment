@@ -204,9 +204,9 @@ p span:nth-of-type(even) {
  .cont-forms {
 	 position: relative;
 	 padding: 0px 20px 10px 10px;
-     height: 29%;
+     height: 28%;
      width: 90%;
-     margin: auto;
+     margin: 5% auto;
      background: linear-gradient(36deg, rgba(16, 161, 218, 0.5) 1%,
       rgba(29, 159, 182, 0.5) 16%, rgba(20, 159, 201, 0.582) 31%, rgba(25, 151, 209, 0.623) 49%,
       rgba(29, 175, 219, 0.5) 59%, rgba(36, 148, 182, 0.623) 75%, rgba(45, 123, 231, 0.5) 84%,
